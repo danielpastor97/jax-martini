@@ -1,0 +1,10 @@
+{
+    "system": "DSPC",
+    "Temperature": 333,
+    "Thicknesses": {
+        "DHH (peak-peak)": 43.3
+    },
+    "APL": 63.800000000000004,
+    "Bonds": {},
+    "Angles": {}
+}

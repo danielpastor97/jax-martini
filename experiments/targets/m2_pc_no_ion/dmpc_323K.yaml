@@ -1,0 +1,61 @@
+{
+    "system": "DMPC",
+    "Temperature": 323,
+    "Thicknesses": {
+        "DHH (peak-peak)": 32.2
+    },
+    "APL": 63.3,
+    "Bonds": {
+        "DMPC": {
+            "NC3-PO4": {
+                "distribution": "data/aa_targets/M2_PC_NO_ION/dmpc_323K/DMPC_NC3-PO4_bond_dist.npy"
+            },
+            "PO4-GL1": {
+                "distribution": "data/aa_targets/M2_PC_NO_ION/dmpc_323K/DMPC_PO4-GL1_bond_dist.npy"
+            },
+            "GL1-GL2": {
+                "distribution": "data/aa_targets/M2_PC_NO_ION/dmpc_323K/DMPC_GL1-GL2_bond_dist.npy"
+            },
+            "GL1-C1A": {
+                "distribution": "data/aa_targets/M2_PC_NO_ION/dmpc_323K/DMPC_GL1-C1A_bond_dist.npy"
+            },
+            "C1A-C2A": {
+                "distribution": "data/aa_targets/M2_PC_NO_ION/dmpc_323K/DMPC_C1A-C2A_bond_dist.npy"
+            },
+            "C2A-C3A": {
+                "distribution": "data/aa_targets/M2_PC_NO_ION/dmpc_323K/DMPC_C2A-C3A_bond_dist.npy"
+            },
+            "GL2-C1B": {
+                "distribution": "data/aa_targets/M2_PC_NO_ION/dmpc_323K/DMPC_GL2-C1B_bond_dist.npy"
+            },
+            "C1B-C2B": {
+                "distribution": "data/aa_targets/M2_PC_NO_ION/dmpc_323K/DMPC_C1B-C2B_bond_dist.npy"
+            },
+            "C2B-C3B": {
+                "distribution": "data/aa_targets/M2_PC_NO_ION/dmpc_323K/DMPC_C2B-C3B_bond_dist.npy"
+            }
+        }
+    },
+    "Angles": {
+        "DMPC": {
+            "PO4-GL1-GL2": {
+                "distribution": "data/aa_targets/M2_PC_NO_ION/dmpc_323K/DMPC_PO4-GL1-GL2_angle_dist.npy"
+            },
+            "PO4-GL1-C1A": {
+                "distribution": "data/aa_targets/M2_PC_NO_ION/dmpc_323K/DMPC_PO4-GL1-C1A_angle_dist.npy"
+            },
+            "GL1-C1A-C2A": {
+                "distribution": "data/aa_targets/M2_PC_NO_ION/dmpc_323K/DMPC_GL1-C1A-C2A_angle_dist.npy"
+            },
+            "C1A-C2A-C3A": {
+                "distribution": "data/aa_targets/M2_PC_NO_ION/dmpc_323K/DMPC_C1A-C2A-C3A_angle_dist.npy"
+            },
+            "GL2-C1B-C2B": {
+                "distribution": "data/aa_targets/M2_PC_NO_ION/dmpc_323K/DMPC_GL2-C1B-C2B_angle_dist.npy"
+            },
+            "C1B-C2B-C3B": {
+                "distribution": "data/aa_targets/M2_PC_NO_ION/dmpc_323K/DMPC_C1B-C2B-C3B_angle_dist.npy"
+            }
+        }
+    }
+}

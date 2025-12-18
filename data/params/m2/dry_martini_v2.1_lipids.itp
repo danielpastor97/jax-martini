@@ -1,0 +1,48 @@
+;;; DRY MARTINI v2.1
+;;; TOPOLOGIES FOR LIPIDS
+;;; 2015/05/19
+;;; Updated all oleyl tails to 4 bead model
+
+; For more background on the testing and optimization of the (wet) parameters, please see the following refs:
+;
+;  S.J. Marrink, A.H. de Vries, A.E. Mark.
+;  Coarse grained model for semi-quantitative lipid simulations.
+;  JPC-B, 108:750-760, 2004.
+;
+; and for poly-unsaturated lipids:
+;
+;  S.J. Marrink, A.H. de Vries, T.A. Harroun, J. Katsaras, S.R. Wassall.
+;  Cholesterol shows preference for the interior of polyunsaturated lipid membranes.
+;  JACS, 130:10-11, 2008.
+;
+;  H.J. Risselada, S.J. Marrink.
+;  The molecular face of lipid rafts in model membranes.
+;  PNAS, 105:17367-17372, 2008.
+
+
+;;; BONDED PARAMETERS
+;
+; defined for all lipids
+[ bondtypes ]
+; aliases for bonds
+#define  mb_np     0.450  1250.0 ; zwitterionic headgroup (MODIFIED from MARTINI v2.0 [previous: 0.470 1250.0])
+#define  mb_gp     0.370  1250.0 ; charged headgroup
+#define  mb_pg1    0.450  1250.0 ; headgroup/glycerol (MODIFIED from MARTINI v2.0 [previous: 0.470 1250.0])
+#define  mb_pg2    0.370  1250.0 ; charged headgroup/glycerol
+#define  mb_pa     0.450  1250.0 ; headgroup/sphingosine (MODIFIED from MARTINI v2.0 [previous: 0.470 1250.0])
+#define  mb_gg     0.370  1250.0 ; glycerol linker
+#define  mb_aa     0.370  1250.0 ; sphingosine linker
+#define  mb_cc     0.480  1250.0 ; tail (MODIFIED from MARTINI v2.0 [previous: 0.470 1250.0])
+
+; aliases for angles
+[ angletypes ]
+#define  ma_pgg  120.000    25.0 ; headgroup/glycerol
+#define  ma_paa  120.000    25.0 ; headgroup/sphingosine
+#define  ma_pgc  180.000    25.0 ; headgroup/glycerol/tail
+#define  ma_pac  180.000    25.0 ; headgroup/sphingosine/tail
+#define  ma_gcc  180.000    35.0 ; glycerol/tail (MODIFIED from MARTINI v2.0 [previous: 180.0 25.0])
+#define  ma_acc  180.000    25.0 ; sphingosine/tail
+#define  ma_adc  180.000    45.0 ; sphingosine/insaturated tail
+#define  ma_ccc  180.000    35.0 ; saturated tail (MODIFIED from MARTINI v2.0 [previous: 180.0 25.0])
+#define  ma_cdc  120.000    45.0 ; mono-insaturation
+#define  ma_ddd   95.000    20.0 ; poly-insaturation (MODIFIED from MARTINI v2.0 [previous: 100.0 10.0])

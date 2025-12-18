@@ -1,0 +1,167 @@
+{
+    "system": "DSPC",
+    "Tm": 328.0,
+    "Tm_sim_temps": [306, 307.5, 309, 310.5, 312, 313.5, 315, 316.5, 318, 319.5, 321, 322.5, 324, 325.5, 327, 328.5, 330, 331.5, 333.5, 334.5, 336, 337.5, 339, 340.5, 342, 343.5, 345, 346.5, 348],
+    "Temperature": {
+        "308": {
+            "Thicknesses": {
+                "DHH (peak-peak)": 49.1
+            },
+            "APL": 47.3,
+            "Bonds": {
+                "DSPC": {
+                    "NC3-PO4": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_NC3-PO4_bond_dist.npy"
+                    },
+                    "PO4-GL1": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_PO4-GL1_bond_dist.npy"
+                    },
+                    "PO4-GL2": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_PO4-GL2_bond_dist.npy"
+                    },
+                    "GL1-GL2": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_GL1-GL2_bond_dist.npy"
+                    },
+                    "GL1-C1A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_GL1-C1A_bond_dist.npy"
+                    },
+                    "C1A-C2A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_C1A-C2A_bond_dist.npy"
+                    },
+                    "C2A-C3A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_C2A-C3A_bond_dist.npy"
+                    },
+                    "C3A-C4A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_C3A-C4A_bond_dist.npy"
+                    },
+                    "GL2-C1B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_GL2-C1B_bond_dist.npy"
+                    },
+                    "C1B-C2B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_C1B-C2B_bond_dist.npy"
+                    },
+                    "C2B-C3B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_C2B-C3B_bond_dist.npy"
+                    },
+                    "C3B-C4B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_C3B-C4B_bond_dist.npy"
+                    }
+                }
+            },
+            "Angles": {
+                "DSPC": {
+                    "NC3-PO4-GL1": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_NC3-PO4-GL1_angle_dist.npy"
+                    },
+                    "PO4-GL1-C1A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_PO4-GL1-C1A_angle_dist.npy"
+                    },
+                    "GL2-GL1-C1A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_GL2-GL1-C1A_angle_dist.npy"
+                    },
+                    "GL1-GL2-C1B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_GL1-GL2-C1B_angle_dist.npy"
+                    },
+                    "GL1-C1A-C2A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_GL1-C1A-C2A_angle_dist.npy"
+                    },
+                    "C1A-C2A-C3A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_C1A-C2A-C3A_angle_dist.npy"
+                    },
+                    "C2A-C3A-C4A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_C2A-C3A-C4A_angle_dist.npy"
+                    },
+                    "GL2-C1B-C2B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_GL2-C1B-C2B_angle_dist.npy"
+                    },
+                    "C1B-C2B-C3B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_C1B-C2B-C3B_angle_dist.npy"
+                    },
+                    "C2B-C3B-C4B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_308K/DSPC_C2B-C3B-C4B_angle_dist.npy"
+                    }
+                }
+            }
+        },
+        "333": {
+            "Thicknesses": {
+                "DHH (peak-peak)": 43.3
+            },
+            "APL": 63.800000000000004,
+            "Bonds": {
+                "DSPC": {
+                    "NC3-PO4": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_NC3-PO4_bond_dist.npy"
+                    },
+                    "PO4-GL1": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_PO4-GL1_bond_dist.npy"
+                    },
+                    "PO4-GL2": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_PO4-GL2_bond_dist.npy"
+                    },
+                    "GL1-GL2": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_GL1-GL2_bond_dist.npy"
+                    },
+                    "GL1-C1A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_GL1-C1A_bond_dist.npy"
+                    },
+                    "C1A-C2A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_C1A-C2A_bond_dist.npy"
+                    },
+                    "C2A-C3A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_C2A-C3A_bond_dist.npy"
+                    },
+                    "C3A-C4A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_C3A-C4A_bond_dist.npy"
+                    },
+                    "GL2-C1B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_GL2-C1B_bond_dist.npy"
+                    },
+                    "C1B-C2B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_C1B-C2B_bond_dist.npy"
+                    },
+                    "C2B-C3B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_C2B-C3B_bond_dist.npy"
+                    },
+                    "C3B-C4B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_C3B-C4B_bond_dist.npy"
+                    }
+                }
+            },
+            "Angles": {
+                "DSPC": {
+                    "NC3-PO4-GL1": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_NC3-PO4-GL1_angle_dist.npy"
+                    },
+                    "PO4-GL1-C1A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_PO4-GL1-C1A_angle_dist.npy"
+                    },
+                    "GL2-GL1-C1A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_GL2-GL1-C1A_angle_dist.npy"
+                    },
+                    "GL1-GL2-C1B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_GL1-GL2-C1B_angle_dist.npy"
+                    },
+                    "GL1-C1A-C2A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_GL1-C1A-C2A_angle_dist.npy"
+                    },
+                    "C1A-C2A-C3A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_C1A-C2A-C3A_angle_dist.npy"
+                    },
+                    "C2A-C3A-C4A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_C2A-C3A-C4A_angle_dist.npy"
+                    },
+                    "GL2-C1B-C2B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_GL2-C1B-C2B_angle_dist.npy"
+                    },
+                    "C1B-C2B-C3B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_C1B-C2B-C3B_angle_dist.npy"
+                    },
+                    "C2B-C3B-C4B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dspc_333K/DSPC_C2B-C3B-C4B_angle_dist.npy"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "system": "DUPC",
+    "Temperature": {
+        "303": {
+            "Thicknesses": {
+                "DHH (peak-peak)": 29.6
+            },
+            "APL": 60.8,
+            "Bonds": {
+                "DUPC": {
+                    "NC3-PO4": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_NC3-PO4_bond_dist.npy"
+                    },
+                    "PO4-GL1": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_PO4-GL1_bond_dist.npy"
+                    },
+                    "PO4-GL2": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_PO4-GL2_bond_dist.npy"
+                    },
+                    "GL1-GL2": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_GL1-GL2_bond_dist.npy"
+                    },
+                    "GL1-C1A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_GL1-C1A_bond_dist.npy"
+                    },
+                    "C1A-C2A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_C1A-C2A_bond_dist.npy"
+                    },
+                    "C2A-C3A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_C2A-C3A_bond_dist.npy"
+                    },
+                    "GL2-C1B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_GL2-C1B_bond_dist.npy"
+                    },
+                    "C1B-C2B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_C1B-C2B_bond_dist.npy"
+                    },
+                    "C2B-C3B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_C2B-C3B_bond_dist.npy"
+                    }
+                }
+            },
+            "Angles": {
+                "DUPC": {
+                    "NC3-PO4-GL1": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_NC3-PO4-GL1_angle_dist.npy"
+                    },
+                    "PO4-GL1-C1A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_PO4-GL1-C1A_angle_dist.npy"
+                    },
+                    "GL2-GL1-C1A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_GL2-GL1-C1A_angle_dist.npy"
+                    },
+                    "GL1-GL2-C1B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_GL1-GL2-C1B_angle_dist.npy"
+                    },
+                    "GL1-C1A-C2A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_GL1-C1A-C2A_angle_dist.npy"
+                    },
+                    "C1A-C2A-C3A": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_C1A-C2A-C3A_angle_dist.npy"
+                    },
+                    "GL2-C1B-C2B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_GL2-C1B-C2B_angle_dist.npy"
+                    },
+                    "C1B-C2B-C3B": {
+                        "distribution": "data/aa_targets/M3_PC_NO_ION/dlpc_303K/DLPC_C1B-C2B-C3B_angle_dist.npy"
+                    }
+                }
+            }
+        }
+    }
+}
