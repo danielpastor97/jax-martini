@@ -1,0 +1,21 @@
+#include "../../params/martini_v3.0.0.itp"
+#include "../../params/martini_v3.0.0_ffbonded_v2_openbeta.itp"
+#include "../../params/martini_v3.0.0_solvents_v1.itp"
+#include "../../params/martini_v3.0.0_ions_v1.itp"
+#include "../../lipid_defs/DSPC.itp"
+
+
+[ system ]
+Combined DSPC_gel and DSPC_liquid
+
+[ molecules ]
+; name    number
+; name number
+DSPC     100 ; base
+DSPC     100 ; base
+W        2409 ; base
+; ---- entries from second topology ----
+; name number
+DSPC     100 ; add
+DSPC     100 ; add
+W        3789 ; add

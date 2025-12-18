@@ -1,0 +1,13 @@
+#include "../../params/dry_martini_v2.1.itp"
+#include "../../params/dry_martini_v2.1_lipids.itp"
+#include "../../lipid_defs/DOPC.itp"
+
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>DOPC=1.0 LowerLeaflet>DOPC=1.0
+
+[ molecules ]
+; name  number
+DOPC            64
+DOPC            64

@@ -1,0 +1,16 @@
+#include "../../params/martini_v3.0.0.itp"
+#include "../../params/martini_v3.0.0_ffbonded_v2_openbeta.itp"
+#include "../../params/martini_v3.0.0_solvents_v1.itp"
+#include "../../params/martini_v3.0.0_ions_v1.itp"
+#include "../../lipid_defs/DUPC.itp"
+
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>DUPC=1.0 LowerLeaflet>DUPC=1.0
+
+[ molecules ]
+; name  number
+DUPC           121
+DUPC           121
+W             3468

@@ -1,0 +1,13 @@
+#include "../../params/dry_martini_v2.1.itp"
+#include "../../params/dry_martini_v2.1_lipids.itp"
+#include "../../lipid_defs/DSPC.itp"
+
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>DSPC=1.0 LowerLeaflet>DSPC=1.0
+
+[ molecules ]
+; name  number
+DSPC            64
+DSPC            64

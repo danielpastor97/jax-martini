@@ -1,0 +1,16 @@
+#include "../../params/martini_v3.0.0.itp"
+#include "../../params/martini_v3.0.0_ffbonded_v2_openbeta.itp"
+#include "../../params/martini_v3.0.0_solvents_v1.itp"
+#include "../../params/martini_v3.0.0_ions_v1.itp"
+#include "../../lipid_defs/DPPC.itp"
+
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>DPPC=1.0 LowerLeaflet>DPPC=1.0
+
+[ molecules ]
+; name  number
+DPPC           121
+DPPC           121
+W             2937

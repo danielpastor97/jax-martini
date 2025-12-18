@@ -1,0 +1,16 @@
+#include "../../params/martini_v3.0.0.itp"
+#include "../../params/martini_v3.0.0_ffbonded_v2_openbeta.itp"
+#include "../../params/martini_v3.0.0_solvents_v1.itp"
+#include "../../params/martini_v3.0.0_ions_v1.itp"
+#include "../../lipid_defs/POPC.itp"
+
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>POPC=1.0 LowerLeaflet>POPC=1.0
+
+[ molecules ]
+; name  number
+POPC           121
+POPC           121
+W             2934

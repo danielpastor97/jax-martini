@@ -1,0 +1,16 @@
+#include "../../params/martini_v3.0.0.itp"
+#include "../../params/martini_v3.0.0_ffbonded_v2_openbeta.itp"
+#include "../../params/martini_v3.0.0_solvents_v1.itp"
+#include "../../params/martini_v3.0.0_ions_v1.itp"
+#include "../../lipid_defs/DOPC.itp"
+
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>DOPC=1.0 LowerLeaflet>DOPC=1.0
+
+[ molecules ]
+; name  number
+DOPC           121
+DOPC           121
+W             2927
