@@ -128,7 +128,7 @@ Runs write to `output/` under a run-specific folder (based on `--run-name`). If 
 
 ## Citation
 If you use this repository in your work work, please cite:
-- **TBA**.
+- Ramirez-Echemendia DP*, Krueger RK*, Tieleman DP, Engel MC. **Gradient-Based Optimization of Force Field Parameters for Martini Lipid Models**. ChemRxiv. 2025; doi:10.26434/chemrxiv-2025-dtt4k
 
 ## Contact / Issues
 Please use the repository issue tracker for:
